@@ -1,4 +1,4 @@
-# jottings
+# Vanga's Jottings
 
 记录一些技术相关的思考
 
