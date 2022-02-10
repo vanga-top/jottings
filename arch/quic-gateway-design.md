@@ -10,7 +10,15 @@
 
 ## Features
 
-* 
+* 一个标准的server instance（支持start/stop/update/reload等操作），支持cmd和类nginx conf解析
+
+* 多个server可基于规则进行水平扩展（server本身无状态）
+
+* 支持协议的选择（quic/h2/h1.1）。支持长链接
+
+* 支持signal和service的proxy
+
+* 弱网优化
 
 ## Archtechure
 
