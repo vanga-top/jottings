@@ -10,18 +10,20 @@
 
 ## Features
 
-* 一个标准的server instance（支持start/stop/update/reload等操作），支持cmd和类nginx conf解析
+* 一个标准的server instance（支持start/stop/update/reload等操作），支持cmd和类nginx conf解析 （内部采用module方式进行管理）
 
 * 多个server可基于规则进行水平扩展（server本身无状态）
 
-* 支持协议的选择（quic/h2/h1.1）。支持长链接
+* 支持协议的选择（quic/h2/h1.1）
 
-* 支持signal和service的proxy
+* 支持http端连接和长连接/rpc service的网关proxy （采用plugin的方式进行扩展）
 
-* 弱网优化
 
 ## Archtechure
 
+server instance hold modules and plugins 
+
+![](./assets/imgs/gateway-server-arch.png)
 
 
 ## Detail
