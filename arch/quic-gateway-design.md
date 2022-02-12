@@ -18,13 +18,16 @@
 
 * 支持http端连接和长连接/rpc service的网关proxy （采用plugin的方式进行扩展）
 
+* high preformance is very important
+
 
 ## Archtechure
 
-server instance hold modules and plugins 
+server instance hold modules and it can install third part plugins 
 
 ![](./assets/imgs/gateway-server-arch.png)
 
+这里的代码实现我会参考caddy的部分设计，原因很简单，不想重复造轮子。但是caddy的设计我觉得并不是太好。从1.0到2.x的版本，把模块化管理做的更清晰了，但最核心部分的层次结构没有改，这个比较遗憾。导致了代码的结构并不能很顺畅的表达运行的结构。
 
 ## Detail
 
