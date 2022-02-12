@@ -29,6 +29,24 @@ server instance hold modules and it can install third part plugins
 
 这里的代码实现我会参考caddy的部分设计，原因很简单，不想重复造轮子。但是caddy的设计我觉得并不是太好。从1.0到2.x的版本，把模块化管理做的更清晰了，但最核心部分的层次结构没有改，这个比较遗憾。导致了代码的结构并不能很顺畅的表达运行的结构。
 
+所以在gateway的层次结构设计上我会基本沿用之前在mogu时候写的网关框架（jaguar-web，比较可惜当时没能把它开源掉）来做。
+
+modules为内部的模块，主要用于协议、proxy、file、static等模块的管理。
+
+plugin开放给第三方，比如可以实现信令的业务、内部proxy到gRPC此类的service。
+
+server通过pipeline来整合modules和plugin，无非不同的是，module不对外开放，而plugin支持外部集成。会在pipeline上开一些扩展点。
+
+server的行为采用cmd的方式进行管理和对外暴露，这里暂时没想好如何设计api的方式进行暴露。
+
+所以最后的执行链应该是：
+
+user/api-->cmd-->server listen-->pipeline-->response
+                                 
+其中在pipeline执行中可能为：
+
+module1-->module2-->plugin1-->module3-->plugin2-->
+
 ## Detail
 
 
