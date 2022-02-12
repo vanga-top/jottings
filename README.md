@@ -4,7 +4,9 @@
 
 ## 文章索引
 
-【正在写】quic-gateway的概要设计 [Link](arch/quic-gateway-design.md)
+* 【正在写】quic-gateway的概要设计 [Link](arch/quic-gateway-design.md)
+
+* 架构设计一些理念的记录 [Link](arch/arch-design-principle.md)
 
 ## 2022年想做的几件事情
 
