@@ -5,9 +5,14 @@
 
 ## 文章索引
 
+### 架构相关
+
+* caddy v2的关键设计 [link](arch/caddy-v2-design.md)
+
 * 【正在写】quic-gateway的概要设计 [Link](arch/quic-gateway-design.md)
 
 * 架构设计一些理念的记录 [Link](arch/arch-design-principle.md)
+
 
 ## 2022年想做的几件事情
 
@@ -15,7 +20,7 @@
 
 * 在比较擅长的网关层能把quic深入到QoS中去，并把框架部分开源，可以关注：https://github.com/vanga-top/quic-gateway
 
-* 在架构设计上，把概要设计、详细设计形成一定的方法论
+* 在架构设计上，把概要设计、详细设计形成一定的方法论，多写几篇公众号
 
 * 商业框架的学习和运用，更好的能把商业模式运用到工作中
 
