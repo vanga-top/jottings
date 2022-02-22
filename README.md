@@ -9,6 +9,8 @@
 
 * caddy v2的关键设计 [link](arch/caddy-v2-design.md)
 
+* 如何学习架构设计，我自己的一些经验 [link](arch/how-to-learn-arch.md)
+
 * 【正在写】quic-gateway的概要设计 [Link](arch/quic-gateway-design.md)
 
 * 架构设计一些理念的记录 [Link](arch/arch-design-principle.md)
