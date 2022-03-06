@@ -15,6 +15,8 @@
 
 * 架构设计一些理念的记录 [Link](arch/arch-design-principle.md)
 
+* 七牛QRTC4.x版本API设计的一些分析 [Link](arch/qn-rtc-apiv4-design.md)
+
 
 ## 2022年想做的几件事情
 
