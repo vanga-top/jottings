@@ -58,3 +58,7 @@
 
 * 2021年12月战略发布会  十年一剑，以产品之力共创客户价值[Link](https://www.shangyexinzhi.com/article/4469597.html)
 
+
+### 好文推荐
+
+* [深入理解 Page Cache](https://xie.infoq.cn/article/e0b32551131bcde22190d89e6)
