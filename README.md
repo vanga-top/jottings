@@ -1,4 +1,4 @@
-# Vanga's Jottings
+# Milo's Jottings
 
 记录一些技术相关的思考
 
@@ -15,14 +15,10 @@
 
 * 架构设计一些理念的记录 [Link](arch/arch-design-principle.md)
 
-* 七牛QRTC4.x版本API设计的一些分析 [Link](arch/qn-rtc-apiv4-design.md)
-
 
 ## 2022年想做的几件事情
 
-* 对webrtc源码更深入理解，且能从4.0架构演进上有所体现，希望能出个流媒体相关的插件
-
-* 网关层能把quic深入到QoS中去。之前静态化server没开源始终是个遗憾，今年希望重新写一个 [gateway server](https://github.com/vanga-top/quic-gateway)
+由于今年做了团队调整，整个发展的方向又有了变化，所以调整下计划吧，2022年也就2个月了
 
 * 在架构设计上，把概要设计、详细设计形成一定的方法论，多研究些框架，多写几篇公众号
 
@@ -57,6 +53,8 @@
 * 2021年9月LVS 专场出品人 [Link](https://zhuanlan.zhihu.com/p/430672855)
 
 * 2021年12月战略发布会  十年一剑，以产品之力共创客户价值[Link](https://www.shangyexinzhi.com/article/4469597.html)
+
+* 
 
 
 ### 好文推荐
