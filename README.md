@@ -11,10 +11,11 @@
 
 * 如何学习架构设计，我自己的一些经验 [link](arch/how-to-learn-arch.md)
 
-* 【正在写】quic-gateway的概要设计 [Link](arch/quic-gateway-design.md)
+* 【hold】quic-gateway的概要设计 [Link](arch/quic-gateway-design.md)
 
 * 架构设计一些理念的记录 [Link](arch/arch-design-principle.md)
 
+* 目前由于业务场景上需要，在写一层dsl的设计 [Link](https://github.com/vanga-top/service-merge-dsl/blob/develop/docs/arch.md)
 
 ## 2022年想做的几件事情
 
@@ -23,6 +24,8 @@
 * 在架构设计上，把概要设计、详细设计形成一定的方法论
 
 * 22年最后两个月会学习下桌面编程（主要做一个项目管理的工具）、复习下虚拟机设计
+
+    * electron没写成，倒是写了个swing的训练倒计时 [Link](https://github.com/vanga-top/skyline-timer) 
 
 * 商业框架的学习和运用，更好的能把商业模式运用到工作中
 
@@ -57,7 +60,7 @@
 
 * 2022年上半年LVS 专题出品人 [Link](https://new.qq.com/rain/a/20220330A01JKD00)
 
-* 2022年ArchSummit杭州 圆桌主持人 架构师如何更好理解业务[Link]（https://new.qq.com/rain/a/20221009A03RGJ00）
+* 2022年ArchSummit杭州 圆桌主持人 架构师如何更好理解业务[Link](https://new.qq.com/rain/a/20221009A03RGJ00)
 
 ### 好文推荐
 
